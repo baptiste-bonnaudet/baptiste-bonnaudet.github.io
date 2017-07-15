@@ -5,8 +5,6 @@ date:   2017-07-06 11:57:05 -0400
 categories: kubernetes bash
 ---
 
-# Bash functions to help with kubernetes debugging
-
 When I started using Kubernetes and ramping up on containers I spent a lot of time debugging, mostly because I was heading in the wrong direction and lacking knowledge. But even now, creating new applications lead to a debug phase, from development environment to staging there is always a need to adapt - even with containers.
 
 Deployments on Kubernetes can be a pain to debug. Mostly because you are always destroying and recreating pods, watching the states of your containers, diving into the logs... And of course the UI is not helping that much and you should not even trust it.
