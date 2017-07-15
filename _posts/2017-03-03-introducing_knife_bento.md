@@ -43,14 +43,20 @@ knife[:vault_read_timeout] = '30'
 
 ## Usage
 ### Show
+```
 knife bento show DATABAG [ITEM]
 knife bento show db_users
 knife bento show db_users username
+```
 
 ### Edit
+```
 knife bento edit DATABAG ITEM
 knife bento show db_users username
+```
 
 ### Edit from file
+```
 knife bento from file DATABAG FILE
 knife bento from file db_users ./user_test.json
+```
