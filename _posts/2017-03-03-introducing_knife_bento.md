@@ -7,8 +7,7 @@ categories: knife chef vault
 
 # Knife bento
 
-![Alt text](images/tampopo.gif?raw=true)
-[Knife bento link] (https://github.com/baptiste-bonnaudet/knife-bento) is an opinionated knife plugin for managing Hashicorp vault secrets the "chef" way! This is the tool for you if you want to migrate from using chef encrypted databags to Hashicorp vault.
+[Knife bento](https://github.com/baptiste-bonnaudet/knife-bento) is an opinionated knife plugin for managing Hashicorp vault secrets the "chef" way! This is the tool for you if you want to migrate from using chef encrypted databags to Hashicorp vault.
 
 Vault was set to be deterministic and to follow CRUD semantics. This means that we cannot append text to a value, we need to read first, modify and then write.
 
