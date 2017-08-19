@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simple bash function to nuke you docker environment"
+title:  "A simple bash function to nuke your docker environment"
 date:   2017-08-16 11:57:05 -0400
 categories: docker environment yolo
 ---
