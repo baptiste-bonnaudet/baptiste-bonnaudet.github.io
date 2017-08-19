@@ -18,9 +18,6 @@ This document will go through the installation of keepalived for seting up a flo
 >The Virtual Router Redundancy Protocol (VRRP) is a computer networking protocol that provides for automatic assignment of available Internet Protocol (IP) routers to participating hosts. This increases the availability and reliability of routing paths via automatic default gateway selections on an IP subnetwork.
 Inline-style:
 
-![alt text](https://github.com/baptiste-bonnaudet/snippets/blob/master/app/images/keepalived_1.gif?raw=true)
-
-
 #### Why not using Pacemaker/Corosync/Heartbeat cluster?
 
 VRRP is a lower level network protocol and keepalived's VRRP stack is pluged to kernel networking components and is articulated around a central I/O multiplexer that provide realtime networking design.
