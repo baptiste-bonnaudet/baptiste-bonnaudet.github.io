@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Forward bash history to rsyslog and to a remote server"
+title:  "The poor man's bash history forwarder to remote rsyslog"
 date:   2016-08-15 11:57:05 -0400
 categories: bash history security
 ---
